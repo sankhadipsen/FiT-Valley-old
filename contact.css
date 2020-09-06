@@ -1,0 +1,86 @@
+.contact-form-wrapper {
+    display: flex;
+}
+
+.con_me {
+    text-align: center;
+    color: blanchedalmond;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.explanation {
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+.contact-form-wrapper-name,
+.contact-form-wrapper-E-Mail,
+.contact-form-wrapper-msg-label,
+.contact-form-wrapper-phone {
+    color: blanchedalmond;
+    padding: 3px;
+    margin: 5px;
+}
+
+.contact-form-wrapper-name input[type="text"],
+.contact-form-wrapper-E-Mail input[type="email"],
+.contact-form-wrapper-phone input[type="tel"] {
+    background: none;
+    margin: 10px auto;
+    border: 0;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 5px;
+    width: 250px;
+    border: 1px solid #2ecc71;
+    outline: none;
+}
+
+.contact-form-wrapper-name input[type="text"]:focus,
+.contact-form-wrapper-E-Mail input[type="email"]:focus,
+.contact-form-wrapper-phone input[type="tel"]:focus {
+    margin: 10px auto;
+    border: 0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 5px;
+    width: 300px;
+    border: 1px solid #0abde3;
+    font-family: consolas;
+}
+
+.contact-form-wrapper-msg-text textarea {
+    background: none;
+    border: 1px solid #2ecc71;
+    outline: none;
+    color: burlywood;
+}
+
+.contact-form-wrapper-msg-text textarea:focus {
+    background: none;
+    border: 1px solid #0abde3;
+    color: blanchedalmond;
+    font-family: consolas;
+}
+
+.contact-form-wrapper-submit input[type="submit"] {
+    background: none;
+    width: 200px;
+    outline: none;
+    border: 1px solid #0abde3;
+    color: cornsilk;
+    border-radius: 20px;
+}
+
+.contact-form-wrapper-submit input[type="submit"]:hover {
+    background-color: #2ecc71;
+    width: 200px;
+    outline: none;
+    border: 1px solid #0abde3;
+    color: cornsilk;
+    border-radius: 20px;
+    color: #000033;
+    font-weight: bolder;
+}
